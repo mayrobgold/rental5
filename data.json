@@ -1,5 +1,5 @@
-.var DATA = {
-  "Aidan Gillen": [
+var DATA = {
+    "Aidan Gillen": [
         "Game of Thrones",
         "The Wire"
     ],
