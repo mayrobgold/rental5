@@ -1,7 +1,3 @@
-//Repubs
-//I only included a committee if it had at least one recipient that showed up in another committee's
-//disbursements. However, if a committee met that criteria, I included all its recipients, even
-//if the additional recipient(s) only appeared that one time. 
 var DATA = {
     "Alabama Republican Party": [
         "Pinnacle Direct",
@@ -27,8 +23,7 @@ var DATA = {
     "Beers for US Senate 2016": [
         "Nova List Marketing Solution"
     ],
-//Beers is nonpartisan, but Nova List is connected to Pursuing America's Greatness, which supported
-//Huckabee. Also, s check all the iternations of Nova to see if it's the same address
+
     "Bill Flores for Congress": [
         "National Right to Life Committee"
     ],
@@ -73,7 +68,6 @@ var DATA = {
         "Mammoth Marketing Group",
         "Upstream Communications"
     ],
-    //p big overlap w/Carly's PAC
     "Chris Vance for Senate": [
         "Pinnacle Direct"
     ],
@@ -186,7 +180,6 @@ var DATA = {
         "Democrats.com",
         "Kos Media LLC",
         "well & Lighthouse LLC"
-//all of Murphy's are 1:1, kept bc Kos Media showed up before under a slightly different name
     ],
     "Garret Graves for Congress": [
         "Targeted Victory"
