@@ -1,193 +1,195 @@
-﻿var DATA = {
-    "Your Mom": [
-        "Game of Thrones",
-        "The Wire"
+//Repubs
+//I only included a committee if it had at least one recipient that showed up in another committee's
+//disbursements. However, if a committee met that criteria, I included all its recipients, even
+//if the additional recipient(s) only appeared that one time. 
+var DATA = {
+    "Alabama Republican Party": [
+        "Pinnacle Direct",
+        "Pinnacle List Company"
     ],
-    "Testing": [
-        "Generation Kill",
-        "True Blood"
+    "American Crossroads": [
+        "DT Client Services LLC"
     ],
-    "Amy Ryan": [
-        "In Treatment",
-        "The Wire"
+    "America's Liberty PAC": [
+        "Active Engagement",
+        "Saber Communications"
     ],
-    "Annie Fitzgerald": [
+    "AMERIPAC": [
         "Big Love",
         "True Blood"
     ],
-    "Anwan Glover": [
-        "Treme",
-        "The Wire"
+    "Amie Hoeber for Congress": [
+        "Arena Online"
     ],
-    "Blair Underwood": [
-        "John from Cincinnati",
-        "Sex and the City"
+    "Amish PAC": [
+        "Omega List Company"
     ],
-    "Brian F. O'Byrne": [
-        "Oz",
-        "K Street"
+    "Beers for US Senate 2016": [
+        "Nova List Marketing Solution"
     ],
-    "Chris Bauer": [
-        "True Blood",
-        "The Wire"
+//Beers is nonpartisan, but Nova List is connected to Pursuing America's Greatness, which supported
+//Huckabee. Also, s check all the iternations of Nova to see if it's the same address
+    "Bill Flores for Congress": [
+        "National Right to Life Committee"
     ],
-    "Clarke Peters": [
-        "Oz",
-        "Treme",
-        "True Blood",
-        "The Wire"
+    "Black America's PAC": [
+        "Omega List Company"
     ],
-    "Cynthia Ettinger": [
-        "Carnivàle",
-        "Curb Your Enthusiasm",
-        "Deadwood"
+    "Boustany for Senate, Inc": [
+        "Pinnacle List Company",
+        "Onmessage Inc"
     ],
-    "Cyrus Farmer": [
-        "The Corner",
-        "Oz",
-        "The Wire"
+    "Brian Mast for Congress": [
+        "Direct Mail Fundraising",
+        "Global Payments",
+        "Nova List",
+        "Pavsner Press"
     ],
-    "Dane DeHaan": [
-        "In Treatment",
-        "True Blood"
+    "Buck for Colorado 2016": [
+        "Mammoth Marketing Group"
     ],
-    "Dania Remirez": [
-        "Entourage",
-        "The Sopranos"
+    "Buddy Carter for Congress": [
+        "Pinnacle List Company"
     ],
-    "David Costabile": [
-        "Flight of the Conchords",
-        "The Wire"
+    "California Republican Party Federal Account": [
+        "Campaign Solutions"
     ],
-    "Dayton Callie": [
-        "Deadwood",
-        "In Treatment"
+    "Carly for President": [
+        "Acme Mail Service",
+        "Conservative Connector",
+        "Direct Support Systems, Inc",
+        "Legacy List Marketing",
+        "MDS Communications Corporation",
+        "The Lukens Company",
+        "The Washington Times"
     ],
-    "Dominic Chianese": [
-        "Boardwalk Empire",
-        "The Sopranos"
+    "Carson America": [
+        "Targeted Victory",
+        "TMA Direct"
     ],
-    "Domonic Lombardozzi": [
-        "Entourage",
-        "Oz",
-        "The Wire"
+    "Chris Christie for President, Inc": [
+        "Conservative Connector LLC",
+        "Larry Hogan for Governor",
+        "Mammoth Marketing Group",
+        "Upstream Communications"
     ],
-    "Don Swayze": [
-        "Carnivàle",
-        "True Blood"
+    //p big overlap w/Carly's PAC
+    "Chris Vance for Senate": [
+        "Pinnacle Direct"
     ],
-    "Edie Falco": [
-        "Oz",
-        "The Sopranos"
+    "Cleek for Congress": [
+        "Campaign Solutions"
     ],
-    "Edoardo Ballerini": [
-        "Boardwalk Empire",
-        "The Sopranos"
+    "Coffman for Congress 2016": [
+        "Campaign Solutions",
+        "Mammoth Marketing Group"
     ],
-    "Edwina Findley": [
-        "True Blood",
-        "The Wire"
+    "Committee to Protect Prosperity and Free Enterprise": [
+        "Friends of Jeb Hensarling"
     ],
-    "Garret Dillahunt": [
-        "Deadwood",
-        "John from Cincinnati"
+    "Comstock for Congress": [
+        "Nova List",
+        "Sunrise Data Services"
     ],
-    "Glynn Turman": [
-        "John from Cincinnati",
-        "The Wire"
+    "Connecticut Republican Party": [
+        "Pinnacle List Company"
     ],
-    "Grant Show": [
-        "Big Love",
-        "Six Feet Under"
+    "Conservative Action Fund": [
+        "Alliance Strategy Group",
+        "American Action News",
+        "Campaign Solutions",
+        "Cobalt Media Group",
+        "Edonation",
+        "Media Bridge LLC",
+        "Political List Brokers LLC",
+        "SCM Enterprises"
     ],
-    "Greg Antonacci": [
-        "Boardwalk Empire",
-        "The Sopranos"
+    "Conservative, Authentic, Responsive Leadership for You and For America": [
+        "Conservative Connector LLC",
+        "Newsmax Media Inc",
+        "Wiland"
     ],
-    "J. Smith-Cameron": [
-        "K Street",
-        "True Blood"
+    "Cruz for President": [
+        "Active Engagement",
+        "Campaign Solutions",
+        "CampaignHQ",
+        "Mustard Seed Media LLC",
+        "Pinnacle List Company",
+        "Targeted Victory",
+        "The Lukens Company",
+        "The Prosper Group Corporation"
     ],
-    "James Ransone": [
-        "Generation Kill",
-        "Treme",
-        "The Wire"
+    "Dan Newhouse for Congress": [
+        "Pinnacle List Company"
     ],
-    "Jamie-Lynn Sigler": [
-        "Entourage",
-        "The Sopranos"
+    "Dold for Congress": [
+        "Targeted Victory"
     ],
-    "Jim Beaver": [
-        "Deadwood",
-        "John from Cincinnati",
-        "Six Feet Under"
+    "Dr. Charles Thomas III for Congress": [
+        "Legacy Lists, Inc"
     ],
-    "Jim True-Frost": [
-        "True Blood",
-        "The Wire"
+    "Duffy for Congress": [
+        "Friends of Jeb Hensarling",
+        "SCM Associates, Inc"
     ],
-    "J.D. Williams": [
-        "The Wire",
-        "Oz",
-        "Sex and the City"
+    "Elizabeth Emken for Congress": [
+        "Sunrise Data Services"
     ],
-    "John Carroll Lynch": [
-        "Big Love",
-        "Carnivàle",
-        "How To Make It in America"
+    "Fiore for Congress": [
+        "Legacy Lists, Inc"
     ],
-    "John Doman": [
-        "Oz",
-        "The Sopranos",
-        "The Wire"
+    "Fleming for Louisiana": [
+        "L2",
+        "Nova List"
     ],
-    "John Hawkes": [
-        "Eastbound and Down",
-        "Deadwood"
+    "Freedom's Defense Fund": [
+        "Legacy List Management, Inc"
     ],
-    "John Seda": [
-        "Oz",
-        "Treme"
+    "Friends of Dave Brat, Inc": [
+        "Campaign Solutions"
     ],
-    "Kevin Rankin": [
-        "Big Love",
-        "Six Feet Under"
+    "Friends of Jeb Hensarling": [
+        "Committe to Protect Prosperity and Free Enterprise",
+        "Duffy for Congress",
+        "Scott Garett for Congress"
     ],
-    "Kim Dickens": [
-        "Deadwood",
-        "Treme"
+    "Friends of John Boehner": [
+        "Capitol Hill Lists",
+        "Clockwork Systems"
     ],
-    "Laila Robins": [
-        "In Treatment",
-        "The Sopranos",
-        "Sex and the City",
-        "Bored to Death"
+    "Friends of John McCain, Inc": [
+        "Edonation",
+        "Granite Lists",
     ],
-    "Lance Reddick": [
-        "The Wire",
-        "Oz",
-        "The Corner"
+    "Friends of Kelly Ayotte, Inc": [
+        "Campaign Solutions",
+        "Capitol Hill Lists",
+        "Pinnacle List Company",
+        "Preferred Communications",
+        "Targeted Victory",
+        "Todd Walker",
+        "Wiland Direct, Inc"
+        "Wiland, Inc"
     ],
-    "Louis Lombardi": [
-        "Entourage",
-        "The Sopranos"
+    "Friends of Mia Love": [
+        "Capitol Hill Lists",
+        "Mailchimp",
     ],
-    "Luis Guzmán": [
-        "How To Make It in America",
-        "John from Cincinnati",
-        "Oz"
+    "Friends of Mike Lee": [
+        "Arena Online"
     ],
-    "Luke Perry": [
-        "Oz",
-        "John from Cincinnati"
+    "Friends of Pat Toomey": [
+        "Capitol Hill Lists",
+        "Nova List Company"
     ],
-    "Mary Kay Place": [
-        "Big Love",
-        "Bored to Death"
+    "Friends of Patrick Murphy": [
+        "Democrats.com",
+        "Kos Media LLC",
+        "well & Lighthouse LLC"
+//all of Murphy's are 1:1, kept bc Kos Media showed up before under a slightly different name
     ],
-    "Matt Winston": [
-        "John from Cincinnati",
-        "Six Feet Under"
+    "Garret Graves for Congress": [
+        "Targeted Victory"
     ],
     "Method Man": [
         "Oz",
